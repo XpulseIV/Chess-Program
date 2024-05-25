@@ -51,6 +51,8 @@ namespace ChessChallenge.Application
 
             controller.Release();
             UIHelper.Release();
+
+            //Tester.Run(true);
         }
 
         public static void SetWindowSize(Vector2 size)
