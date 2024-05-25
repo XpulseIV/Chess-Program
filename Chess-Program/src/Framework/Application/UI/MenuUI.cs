@@ -17,7 +17,7 @@ namespace ChessChallenge.Application
             // Game Buttons
             if (NextButtonInRow("Human vs MyBot", ref buttonPos, spacing, buttonSize))
             {
-                controller.StartNewGame(ChallengeCon!troller.P1 - 1, ChallengeController.P2 - 1);
+                controller.StartNewGame(ChallengeController.P1 - 1, ChallengeController.P2 - 1);
 
                 (ChallengeController.P1, ChallengeController.P2) = (ChallengeController.P2, ChallengeController.P1);
             }
