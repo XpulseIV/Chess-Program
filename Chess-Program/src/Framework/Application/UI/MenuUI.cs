@@ -45,7 +45,7 @@ namespace ChessChallenge.Application
             }
             if (NextButtonInRow("Rules & Help", ref buttonPos, spacing, buttonSize))
             {
-                FileHelper.OpenUrl("https://github.com/SebLague/Chess-Challenge");
+                FileHelper.OpenUrl("https://github.com/SebLague/Chess-Program");
             }
             if (NextButtonInRow("Documentation", ref buttonPos, spacing, buttonSize))
             {
